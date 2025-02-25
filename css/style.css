@@ -62,8 +62,12 @@ a {
     background: #2E2F42;
 }
 .business-h {
+    font-weight: 700;
+    font-size: 56px;
     line-height: 1.07;
-    color: #FFFFFF;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
 }
 .business-button {
     font-family: "Roboto", sans-serif;
@@ -119,16 +123,22 @@ color: #2E2F42;
 
 /* footer start */
 .footer {
-
     background: #2E2F42;
 }
 .footer-p {
-color: #F4F4FD;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
 .footer-logo-link {
     font-family: "Raleway", sans-serif;
-text-transform: uppercase;
-color: #4D5AE5;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
 .footer-logo-link-span {
 text-transform: uppercase;
