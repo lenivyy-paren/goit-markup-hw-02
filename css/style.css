@@ -32,6 +32,7 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
 .header-item-link:focus, .header-item-link:hover {
@@ -50,7 +51,15 @@ a {
     font-style: normal;
 }
 .header-address-link {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
+}
+
+.header-address-link:focus, .header-address-link:hover {
+    color:  #404BBF;
 }
 
 /* header end */
@@ -106,17 +115,42 @@ a {
 
 
 /* section 3 start */
-.section-team-item-h {
+
+.section-team {
+    background-color: #F4F4FD;
+}
+
+.section-team-h {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: #2E2F42;
 }
+
+.section-team-item {
+    background-color: #FFFFFF;
+}
+
+.section-team-item-h{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02;
+    color: #2E2F42;
+}
+
 .section-team-p {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
 }
 /* section 3 end */
 
 /* section 4 start */
-.Portfolio-h {
+.portfolio-h {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -126,14 +160,14 @@ a {
     text-transform: capitalize;
 }
 
-.Portfolio-item-h {
+.portfolio-item-h {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.Portfolio-item-p {
+.portfolio-item-p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
